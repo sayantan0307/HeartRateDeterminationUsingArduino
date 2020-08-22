@@ -1,2 +1,9 @@
 # Heart_Rate_Determination_Using_Arduino
-Project on how to measure heart rate, using an Arduino, simple heart rate sensor and MATLAB
+Project on how to measure heart rate, using an Arduino, simple heart rate sensor and MATLAB.
+
+Components needed for the project:
+
+1. Arduino UNO
+2. Pulse Heart Rate Sensor
+
+First download and open the PPG_Data_Collection.pptx file. Follow the instructions as given in the file.
