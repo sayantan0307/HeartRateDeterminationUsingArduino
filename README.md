@@ -6,4 +6,4 @@ Components needed for the project:
 1. Arduino UNO
 2. Pulse Heart Rate Sensor
 
-First download and open the PPG_Data_Collection.pptx file. Follow the instructions as given in the file.
+First download and open the PPG_Data_Collection.pptx file. Follow the instructions as given in the file. The Arduino code is available in the file PPG_Data.ino. It's a simple code and can be written directly too.
