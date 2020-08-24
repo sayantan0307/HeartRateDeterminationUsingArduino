@@ -11,4 +11,4 @@ First download and open the PPG_Data_Collection.pptx file. Follow the instructio
 
 A sample .csv file has been added for understanding.
 
-Then open the MATLAB file (PPG_Data.m), and run the code. This will generate a graph which will represent the PPG signal. Using this graph we will calculate the heart rate.
+Then open the MATLAB file (ppg_test.m), and run the code. This will generate a graph which will represent the PPG signal. Using this graph we will calculate the heart rate.
