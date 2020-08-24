@@ -1,0 +1,17 @@
+d = xlsread('test.csv');
+v = d(200:600,1);
+t =d(200:600,2);
+ylim([325,340]);
+num = [1 1 1 1 1 1 1];
+den = [7 0 0 0];
+y = filter(num,den,v);
+ylim([325,340]);
+[max, loc_max] = findpeaks(y);
+z = islocalmin(y);
+min = y(z);
+loc_min = t(z);
+plot(t(loc_max),max,'or');
+hold on;
+plot(t,y);
+plot(loc_min,min,'r*');
+ylim([325,345]);
